@@ -1,32 +1,39 @@
 * {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
     margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .navegacao {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px;
+    padding: 10px;
+    box-shadow: 0.3px 0.3px 0.3px 4px rgba(0, 0, 0, 0.15);
 }
 
-.navegacao__menu {
+.menu {
     list-style: none;
     padding-left: 0;
 }
 
-.navegacao__menu li {
+.menu li {
     display: inline-block;
     margin: 0 20px 0 0;
 }
 
-.navegacao__logo {
-    width: 150px;
+.menu__link {
+    text-decoration: none;
+    color: #FFB468;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
-.conteudo {
-
+.logo {
+    width: 150px;
+    margin: 0 20px;
 }
 
 .conteudo__container {
@@ -34,23 +41,36 @@
     width: 800px;
     display: flex;
     justify-content: space-around;
+    padding-top: 60px;
 }
 
-.conteudo__foto {
-    width: 150px;
+.autora {
+    width: 200px;
+    text-align: center;
+}
+
+.autora__nome {
+    font-weight: bold;
+    width: 200px;
+}
+
+.autora__foto {
+    width: 180px;
     border-radius: 50%;
-    margin: 20px;
+    margin: 0 auto;
+    display: block;
 }
 
-.conteudo__artigo {
-    width: 500px;
-    padding: 20px;
+.artigo {
+    width: 400px;
 }
 
-.conteudo__autora {
-
-}
-
-.conteudo__nome {
-    
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD7A7;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
 }
