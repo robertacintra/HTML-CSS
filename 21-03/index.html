@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Preencha aqui</h1>
+
+    <section>
+
+        <form action="#" method="POST">
+
+            <div>
+                <label for="nome-da-pessoa">Seu nome</label>
+                <input type="text" placeholder="Escreva seu nome" name="nome-da-pessoa">
+            </div>
+            
+            <div>
+                <label for="senha-da-pessoa">Sua senha</label>
+                <input type="password" placeholder="Digite sua senha" name="senha-da-pessoa">
+            </div>
+            
+            <div>
+                <label for="email-da-pessoa">Seu email</label>
+                <input type="email" placeholder="Seu email vai aqui" name="email-da-pessoa">
+            </div>
+
+            <div>
+                <label for="idade-da-pessoa">Sua idade</label>
+                <input type="number" name="idade-da-pessoa">
+            </div>
+
+            <div>
+                <laber for="usuaria-talentosa">Declaro que sou muito talentosa</laber>
+                <input type="checkbox" name="usuaria-talentosa">
+            </div>
+
+            <div>
+                <label>Selecione o que você faz:</label>
+                <input type="radio" name="profissao" value="programadora"><span>Programadora</span>
+                <input type="radio" name="profissao" value="designer"><span>Designer</span>
+                <input type="radio" name="profissao" value="arquiteta"><span>Arquiteta</span>
+            </div>
+
+            <div>
+                <label for="cidade-da-usuaria">Sua cidade:</label>
+                <select name="cidade-da-usuaria">
+                    <option value="sao-paulo">São Paulo</option>
+                    <option value="rio-de-janeiro">Rio de Janeiro</option>
+                    <option value="porto-alegre">Porto Alegre</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Conte sua vida:</label>
+                <textarea name="vida" cols="30" rows="3" placeholder="Estudei na reprograma"></textarea>
+            </div>
+            
+            <input type="submit" value="Enviar">
+
+        </form>
+
+    </section>
+</body>
+</html>
