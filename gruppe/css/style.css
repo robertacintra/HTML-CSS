@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    color: #ffffff;
+}
+
+/* HEAD */
+.cabecalho {
+    background-image: url("../img/bg-banner.png");
+    background-position: right;
+    min-height: 80vh;
+    padding-top: 120px;
+
+    /* conter, sem distorção!, ao invés de cobrir {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: */
+}
+
+img {
+    width: 50%;
+}
+
+.logo {
+    width: 150px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+li {
+    display: inline-block
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}

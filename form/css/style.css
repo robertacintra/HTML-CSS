@@ -27,3 +27,21 @@
 .grupo-campo > select {
     width: 54%;
 }
+
+.btn {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn--submit {
+    background-color: #c200b8;
+}
+
+.btn--submit:hover {
+    background-color: #64006d;
+}
+
+input:focus {
+    border: #c200b8;
+}
